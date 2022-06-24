@@ -3,8 +3,8 @@
 }
 
 .form-style {
-	width: 50% auto !important;
-	height: 50% auto !important;
+	width: 60%;
+	height: 50% auto;
 	left: 0px;
 	top: 0px;
 	background: #ffffff;
@@ -44,4 +44,14 @@ a {
 
 button {
 	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.form-style {
+		width: auto !important ;
+		height: auto !important;
+		left: 0px;
+		top: 0px;
+		background: #ffffff;
+	}
 }
